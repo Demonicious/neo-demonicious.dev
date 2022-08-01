@@ -36,7 +36,7 @@
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 368.7 73.501"
 >
-  <title>Ross Hill</title>
+  <title>Mudassar Islam</title>
   <g>
     {#if showTitle || !browser}
       <path

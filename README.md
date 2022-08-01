@@ -1,5 +1,5 @@
-# rosshill.ca
+# neo-demonicious.dev
 
 Built with SvelteKit.
 
-Copyright © 2015 Ross Hill. All Rights Reserved.
+Copyright © 2022 Mudassar Islam. All Rights Reserved.

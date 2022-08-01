@@ -49,11 +49,11 @@
 >
   <ThemeSwitcher selectedTheme={selectedTheme} />
   <div class="two-column">
-    <Sidebar />
     <div>
       <slot />
       <CopyrightNotice />
     </div>
+    <Sidebar />
   </div>
 </div>
 <svelte:head>
@@ -106,7 +106,7 @@
 <style>
   div.two-column {
     display: grid;
-    grid-template-columns: 3fr 8fr;
+    grid-template-columns: 8fr 3fr;
   }
 
   @media (max-width: 800px) {

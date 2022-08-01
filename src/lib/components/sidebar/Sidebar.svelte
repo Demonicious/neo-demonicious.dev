@@ -1,7 +1,6 @@
 <script lang="ts">
   import { remsToPixels } from "$lib/functions";
   import Separator from "$lib/components/sidebar/Separator.svelte";
-  import AnimatedName from "$lib/components/sidebar/AnimatedName.svelte";
   import InlineSeparator from "$lib/components/InlineSeparator.svelte";
 </script>
 
@@ -13,28 +12,28 @@
         <source srcset="/headshot.png" type="image/png" />
         <img
           src="/headshot.png"
-          alt="Ross Hill"
+          alt="Mudassar Islam"
           width={remsToPixels(10)}
           height={remsToPixels(10)} />
       </picture>
     </div>
     <h1>
-      <AnimatedName />
+      Mudassar Islam
     </h1>
     <p class="subtitle role do-transition">Software Developer</p>
     <p class="subtitle email">
-      <a href="mailto:ross@rosshill.ca">ross@rosshill.ca</a>
+      <a href="mailto:thedvmn@gmail.com">thedvmn@gmail.com</a>
     </p>
     <p class="subtitle">
-      <a target="_blank" rel="noopener noreferrer" href="https://github.com/rosslh">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/demonicious">
         GitHub
       </a>
       <InlineSeparator />
-      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rosslh">
+      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/islam.mudassar">
         LinkedIn
       </a>
       <InlineSeparator />
-      <a href="/Ross%20Hill.pdf" target="_blank" rel="noopener noreferrer">
+      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
         Resume
       </a>
     </p>

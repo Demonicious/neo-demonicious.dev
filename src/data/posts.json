@@ -32,8 +32,8 @@
       ],
       "meta": {
         "relativePath": "IsEarthStillWarming.html",
-        "createdAt": "2022-06-02T17:58:43.590Z",
-        "lastModified": "2022-06-02T17:58:43.590Z",
+        "createdAt": "2022-08-01T08:46:53.186Z",
+        "lastModified": "2022-08-01T08:46:53.186Z",
         "size": 1517,
         "formattedSize": "1.5 KB"
       }
@@ -52,10 +52,10 @@
       ],
       "meta": {
         "relativePath": "MUSE.html",
-        "createdAt": "2022-06-02T17:58:43.588Z",
-        "lastModified": "2022-06-02T17:58:43.588Z",
-        "size": 274,
-        "formattedSize": "274 Bytes"
+        "createdAt": "2022-08-01T08:46:53.186Z",
+        "lastModified": "2022-08-01T08:46:53.186Z",
+        "size": 282,
+        "formattedSize": "282 Bytes"
       }
     },
     {
@@ -76,10 +76,10 @@
       "isHidden": true,
       "meta": {
         "relativePath": "QTMA.html",
-        "createdAt": "2022-06-02T17:58:43.583Z",
-        "lastModified": "2022-06-02T17:58:43.583Z",
-        "size": 386,
-        "formattedSize": "386 Bytes"
+        "createdAt": "2022-08-01T08:46:53.187Z",
+        "lastModified": "2022-08-01T08:46:53.187Z",
+        "size": 396,
+        "formattedSize": "396 Bytes"
       }
     },
     {
@@ -100,10 +100,10 @@
       "website": "https://www.qvft.ca/",
       "meta": {
         "relativePath": "QVFT.html",
-        "createdAt": "2022-06-02T17:58:43.583Z",
-        "lastModified": "2022-06-02T17:58:43.583Z",
-        "size": 505,
-        "formattedSize": "505 Bytes"
+        "createdAt": "2022-08-01T08:46:53.188Z",
+        "lastModified": "2022-08-01T08:46:53.188Z",
+        "size": 515,
+        "formattedSize": "515 Bytes"
       }
     },
     {
@@ -118,10 +118,32 @@
       "excerpt": "Taught children how to ski – from their first time on skis to racing competitively in a team. Gained experience in leading a team and working closely with other employees.",
       "meta": {
         "relativePath": "caledon.html",
-        "createdAt": "2022-06-02T17:58:43.592Z",
-        "lastModified": "2022-06-02T17:58:43.592Z",
-        "size": 321,
-        "formattedSize": "321 Bytes"
+        "createdAt": "2022-08-01T08:46:53.189Z",
+        "lastModified": "2022-08-01T08:46:53.189Z",
+        "size": 329,
+        "formattedSize": "329 Bytes"
+      }
+    },
+    {
+      "id": "coronastats",
+      "contents": "<p>During 2020, when COVID-19 was yet to reach it&#39;s peak, I had a lot of free time and wanted to dabble in React.js. I&#39;d always been a Vue and Angular user but wanted to give React a fair chance. I watched a crash course by <a href=\"https://youtube.com/traversymedia\">Traversy Media</a> and decided to work on a project. I wanted to build something related to the coronavirus that could be helpful / informative. CORONASTATS.CO was my excuse to learn React.</p>\n<p>I parsed the data initially from <a href=\"https://www.worldometers.info/\">Worldometers</a> and later from many other websites to give extremely detailed and updated statistics for the coronavirus. I had cases per country, as-well as per city &amp; province for some prominent countries (The US, India, The UK). I also had a news section that parsed links to news articles from various different websites.</p>\n<p>I had no hopes of it doing well but just to show it off, I posted the link on ProductHunt and Reddit and it blew up. I received hundereds of thousands of unique visitors and it became Product of the Day on Product Hunt. I also received more than $10,000 in donations and a large amount of users praised it as the best coronavirus tracker that exists at the time.</p>\n",
+      "title": "CORONASTATS.CO",
+      "eventType": "project",
+      "date": "2020-04-01T00:00:00.000Z",
+      "website": "https://www.producthunt.com/products/coronavirus-statistics",
+      "image": "isearthstillwarming",
+      "thumbnail": "fire",
+      "excerpt": "A Coronavirus Cases & News tracker built in React.js with a PHP & Postgres Backend. It was my excuse to learn React but ended up becoming product of the day on Product Hunt and reached hundereds of thousands of unique visitors.",
+      "tags": [
+        "react",
+        "php"
+      ],
+      "meta": {
+        "relativePath": "coronastats.html",
+        "createdAt": "2022-08-01T10:41:26.069Z",
+        "lastModified": "2022-08-01T10:41:26.069Z",
+        "size": 1661,
+        "formattedSize": "1.6 KB"
       }
     },
     {
@@ -142,8 +164,8 @@
       "eventType": "job",
       "meta": {
         "relativePath": "doctalk.html",
-        "createdAt": "2022-06-05T22:41:36.860Z",
-        "lastModified": "2022-06-05T22:41:36.860Z",
+        "createdAt": "2022-08-01T08:46:53.189Z",
+        "lastModified": "2022-08-01T08:46:53.189Z",
         "size": 415,
         "formattedSize": "415 Bytes"
       }
@@ -164,9 +186,9 @@
       ],
       "meta": {
         "relativePath": "dodgeball.html",
-        "createdAt": "2022-06-02T17:58:43.592Z",
-        "lastModified": "2022-06-02T17:58:43.592Z",
-        "size": 1549,
+        "createdAt": "2022-08-01T08:46:53.190Z",
+        "lastModified": "2022-08-01T08:46:53.190Z",
+        "size": 1564,
         "formattedSize": "1.5 KB"
       }
     },
@@ -188,10 +210,10 @@
       "website": "https://folda.netlify.com/",
       "meta": {
         "relativePath": "folda.html",
-        "createdAt": "2022-06-02T17:58:43.592Z",
-        "lastModified": "2022-06-02T17:58:43.592Z",
-        "size": 428,
-        "formattedSize": "428 Bytes"
+        "createdAt": "2022-08-01T08:46:53.191Z",
+        "lastModified": "2022-08-01T08:46:53.191Z",
+        "size": 437,
+        "formattedSize": "437 Bytes"
       }
     },
     {
@@ -207,10 +229,10 @@
       "excerpt": "Worked with many different age groups from six to fourteen years old, and gained experience in working with people of different ability levels and interests.",
       "meta": {
         "relativePath": "hurontario.html",
-        "createdAt": "2022-06-02T17:58:43.591Z",
-        "lastModified": "2022-06-02T17:58:43.591Z",
-        "size": 321,
-        "formattedSize": "321 Bytes"
+        "createdAt": "2022-08-01T08:46:53.192Z",
+        "lastModified": "2022-08-01T08:46:53.192Z",
+        "size": 330,
+        "formattedSize": "330 Bytes"
       }
     },
     {
@@ -228,9 +250,9 @@
       ],
       "meta": {
         "relativePath": "mandelbrot.html",
-        "createdAt": "2022-06-02T17:58:43.588Z",
-        "lastModified": "2022-06-02T17:58:43.588Z",
-        "size": 1198,
+        "createdAt": "2022-08-01T08:46:53.192Z",
+        "lastModified": "2022-08-01T08:46:53.192Z",
+        "size": 1212,
         "formattedSize": "1.2 KB"
       }
     },
@@ -252,8 +274,8 @@
       ],
       "meta": {
         "relativePath": "metaProjection.html",
-        "createdAt": "2022-06-02T17:58:43.588Z",
-        "lastModified": "2022-06-02T17:58:43.588Z",
+        "createdAt": "2022-08-01T08:46:53.193Z",
+        "lastModified": "2022-08-01T08:46:53.193Z",
         "size": 1436,
         "formattedSize": "1.4 KB"
       }
@@ -274,8 +296,8 @@
       ],
       "meta": {
         "relativePath": "nudge1.html",
-        "createdAt": "2022-06-02T17:58:43.585Z",
-        "lastModified": "2022-06-02T17:58:43.585Z",
+        "createdAt": "2022-08-01T08:46:53.194Z",
+        "lastModified": "2022-08-01T08:46:53.194Z",
         "size": 460,
         "formattedSize": "460 Bytes"
       }
@@ -298,8 +320,8 @@
       ],
       "meta": {
         "relativePath": "nudge2.html",
-        "createdAt": "2022-06-02T17:58:43.584Z",
-        "lastModified": "2022-06-02T17:58:43.584Z",
+        "createdAt": "2022-08-01T08:46:53.195Z",
+        "lastModified": "2022-08-01T08:46:53.195Z",
         "size": 402,
         "formattedSize": "402 Bytes"
       }
@@ -323,9 +345,9 @@
       ],
       "meta": {
         "relativePath": "qhacks.html",
-        "createdAt": "2022-06-02T17:58:43.584Z",
-        "lastModified": "2022-06-02T17:58:43.584Z",
-        "size": 1131,
+        "createdAt": "2022-08-01T08:46:53.195Z",
+        "lastModified": "2022-08-01T08:46:53.195Z",
+        "size": 1148,
         "formattedSize": "1.1 KB"
       }
     },
@@ -340,10 +362,10 @@
       "excerpt": "Bachelor of Computing (Honours, Software Design).<br/><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://cips.ca/SoftwareEngineering/#:~:text=queen%E2%80%99s%20university\">CIPS Accredited</a> Software Engineering program.",
       "meta": {
         "relativePath": "queensEnrolled.html",
-        "createdAt": "2022-06-02T17:58:43.583Z",
-        "lastModified": "2022-06-02T17:58:43.583Z",
-        "size": 361,
-        "formattedSize": "361 Bytes"
+        "createdAt": "2022-08-01T08:46:53.196Z",
+        "lastModified": "2022-08-01T08:46:53.196Z",
+        "size": 368,
+        "formattedSize": "368 Bytes"
       }
     },
     {
@@ -364,8 +386,8 @@
       "repository": "https://github.com/rosslh/ReqWise",
       "meta": {
         "relativePath": "reqwise.html",
-        "createdAt": "2022-06-02T17:58:43.583Z",
-        "lastModified": "2022-06-02T17:58:43.583Z",
+        "createdAt": "2022-08-01T08:46:53.197Z",
+        "lastModified": "2022-08-01T08:46:53.197Z",
         "size": 2310,
         "formattedSize": "2.3 KB"
       }
@@ -386,10 +408,10 @@
       ],
       "meta": {
         "relativePath": "robot.html",
-        "createdAt": "2022-06-02T17:58:43.581Z",
-        "lastModified": "2022-06-02T17:58:43.581Z",
-        "size": 942,
-        "formattedSize": "942 Bytes"
+        "createdAt": "2022-08-01T08:46:53.198Z",
+        "lastModified": "2022-08-01T08:46:53.198Z",
+        "size": 954,
+        "formattedSize": "954 Bytes"
       }
     },
     {
@@ -409,8 +431,8 @@
       ],
       "meta": {
         "relativePath": "rust-fractals.html",
-        "createdAt": "2022-06-02T17:58:43.581Z",
-        "lastModified": "2022-06-02T17:58:43.581Z",
+        "createdAt": "2022-08-01T08:46:53.199Z",
+        "lastModified": "2022-08-01T08:46:53.199Z",
         "size": 405,
         "formattedSize": "405 Bytes"
       }
@@ -430,10 +452,10 @@
       ],
       "meta": {
         "relativePath": "traffic.html",
-        "createdAt": "2022-06-02T17:58:43.580Z",
-        "lastModified": "2022-06-02T17:58:43.580Z",
-        "size": 372,
-        "formattedSize": "372 Bytes"
+        "createdAt": "2022-08-01T08:46:53.200Z",
+        "lastModified": "2022-08-01T08:46:53.200Z",
+        "size": 381,
+        "formattedSize": "381 Bytes"
       }
     },
     {
@@ -450,10 +472,10 @@
       "excerpt": "A JavaScript library for visually consistent color transformations through HSLuv color space",
       "meta": {
         "relativePath": "unitransform.html",
-        "createdAt": "2022-06-02T17:58:43.580Z",
-        "lastModified": "2022-06-02T17:58:43.580Z",
-        "size": 572,
-        "formattedSize": "572 Bytes"
+        "createdAt": "2022-08-01T08:46:53.201Z",
+        "lastModified": "2022-08-01T08:46:53.201Z",
+        "size": 585,
+        "formattedSize": "585 Bytes"
       }
     },
     {
@@ -473,8 +495,8 @@
       ],
       "meta": {
         "relativePath": "verafin.html",
-        "createdAt": "2022-06-02T17:58:43.579Z",
-        "lastModified": "2022-06-02T17:58:43.579Z",
+        "createdAt": "2022-08-01T08:46:53.202Z",
+        "lastModified": "2022-08-01T08:46:53.202Z",
         "size": 450,
         "formattedSize": "450 Bytes"
       }
@@ -494,10 +516,10 @@
       "repository": "https://github.com/rosslh/vibeify",
       "meta": {
         "relativePath": "vibeify.html",
-        "createdAt": "2022-06-02T17:58:43.579Z",
-        "lastModified": "2022-06-02T17:58:43.579Z",
-        "size": 356,
-        "formattedSize": "356 Bytes"
+        "createdAt": "2022-08-01T08:46:53.212Z",
+        "lastModified": "2022-08-01T08:46:53.212Z",
+        "size": 364,
+        "formattedSize": "364 Bytes"
       }
     },
     {
@@ -517,8 +539,8 @@
       ],
       "meta": {
         "relativePath": "wtformat.html",
-        "createdAt": "2022-06-02T17:58:43.577Z",
-        "lastModified": "2022-06-02T17:58:43.577Z",
+        "createdAt": "2022-08-01T08:46:53.213Z",
+        "lastModified": "2022-08-01T08:46:53.213Z",
         "size": 1158,
         "formattedSize": "1.1 KB"
       }

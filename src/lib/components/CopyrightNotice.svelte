@@ -1,5 +1,5 @@
 <footer class="content-wrapper do-transition">
-  Copyright &copy; 2015-{new Date().getFullYear()} Ross Hill. All Rights Reserved.
+  Copyright &copy; 2021-{new Date().getFullYear()} Mudassar Islam. All Rights Reserved.
 </footer>
 
 <style>

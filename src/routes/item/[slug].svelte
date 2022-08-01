@@ -42,17 +42,17 @@
   const capitalize = (text: string) => text.replace(/\b\w/g, (m) => m.toUpperCase());
 
   const meta = {
-    title: `${post.title} | Ross Hill`,
+    title: `${post.title} — Demonicious`,
     description: post.excerpt ?? post.title,
-    url: `https://rosshill.ca/item/${post.slug}`,
+    url: `https://demonicious.dev/item/${post.slug}`,
     image: {
       url: post.image
-        ? `https://rosshill.ca/timeline/${post.image.name}.${post.image.extension}`
-        : "https://rosshill.ca/siteImage.png",
+        ? `https://demonicious.dev/timeline/${post.image.name}.${post.image.extension}`
+        : "https://demonicious.dev/siteImage.png",
       alt: post.title,
     },
-    siteName: "Ross Hill",
-    author: "Ross Hill",
+    siteName: "Mudassar Islam",
+    author: "Mudassar Islam",
     tags: post.tags.map((tagId) => tagLabels[tagId] ?? capitalize(tagId)),
   };
 </script>

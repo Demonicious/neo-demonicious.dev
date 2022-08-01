@@ -9,15 +9,15 @@
   import PostStubs from "$lib/components/timeline/PostStubs.svelte";
 
   const meta = {
-    title: "Website and Portfolio | Ross Hill",
-    description: "I am a software developer based in Toronto. I specialize in web development and I'm always on the lookout for cool new technologies.",
-    url: "https://rosshill.ca",
-    siteName: "Ross Hill",
+    title: "Homepage & Portfolio — Mudassar Islam",
+    description: "I'm a software developer from Pakistan. Web Development is my specialization but I'm always looking forward to anything related to computers & new technologies.",
+    url: "https://demonicious.dev",
+    siteName: "Mudassar Islam",
     image: {
-      url: "https://rosshill.ca/siteImage.png",
+      url: "https://demonicious.dev/siteImage.png",
       width: 1000,
       height: 523,
-      alt: "Ross Hill: About Me, Projects, and Contact",
+      alt: "Mudassar Islam: About Me, Projects, and Contact",
     },
   };
 </script>

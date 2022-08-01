@@ -1,8 +1,7 @@
 {
-    "name": "Ross Hill",
-    "short_name": "Ross Hill",
-    "icons": [
-        {
+    "name": "Mudassar Islam - Homepage",
+    "short_name": "Mudassar Islam",
+    "icons": [{
             "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"

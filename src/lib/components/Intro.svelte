@@ -1,13 +1,14 @@
 <div class="content-wrapper intro">
   <h2 data-testid="main-heading">
-    Welcome to my corner of the web!
+    Welcome to my homepage!
   </h2>
   <p>
-    I hope you enjoy your stay. Here's a little bit about me:
+    I hope you enjoy your stay. Here's a some things about me:
   <p>
-    I am a web developer and I'm always on the lookout for cool new technologies.
-    I like to spend my time reading, working on side projects, and exploring the great city of Toronto.
-    For work I'm helping Doctalk make the lives of doctors and medical professionals easier.
+    I am a Full-stack Web Developer who specializes in Vue, Svelte, PHP, Laravel & Relational Databases.
+    I'm self-taught and went from knowing nothing about programming to lecturing students about web development in the span of a few years.
+    I have a passion for computer tinkering and I'm always hunting for new technologies and experimenting with them.
+    I'm currently working as a Full-stack Developer for Nexthon Technologies.
   </p>
 </div>
 
