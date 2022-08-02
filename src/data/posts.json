@@ -17,15 +17,15 @@
   "data": [
     {
       "id": "adanit",
-      "contents": "<p>Adan IT Center is an institute that was sponsored by the government to teach students web development for free in the span of 6 months. The course was designed to take a student with no knowledge about creating websites to someone who fundamentally understands how they are structured as-well as has a path to follow down the road.</p>\n<p>I was invited as the Instructor for the Web Development course. The course was a Full-stack Web Development course which aimed to teach students the basics of HTML, CSS, JavaScript &amp; PHP through a span of 6 months. It was divided into 3 months for Frontend &amp; 3 months for Backend development.</p>\n<p>My role as an instructor was to deliver lectures &amp; practical examples to the students and answer any of their questions and confusions. I also conducted lab sessions with them where a group of students would complete any given task, handling different aspects of the task. Students were also given bi-weekly assignments and quizzes to revise and sharpen their skills. We completed many projects while learning and I also enjoyed my time with the classroom.</p>\n<p>The curriculum that I designed for the students was:</p>\n<h4 id=\"main-subjects\">Main Subjects:</h4>\n<ul>\n<li>HTML &amp; CSS</li>\n<li>JavaScript</li>\n<li>Building a Company Website with HTML, CSS &amp; JavaScript</li>\n<li>Working with REST APIs</li>\n<li>ES6 JavaScript Features</li>\n<li>PHP</li>\n<li>MySQL</li>\n<li>Building a Job Board with PHP &amp; MySQL</li>\n</ul>\n<h4 id=\"bonus-subjects\">Bonus Subjects:</h4>\n<ul>\n<li>Vue.js Crash Course</li>\n<li>Laravel Mini Course</li>\n<li>Building a Pokemon API with Laravel</li>\n</ul>\n<p>Even though the course was Full-stack development, many students chose the one they were most interested in. As such, they were given special guidance related to their choice and weren&#39;t bothered with things they weren&#39;t interested in.</p>\n<p>The course ended in July of 2022, and many students eventually started working as interns in different organizations (including Nexthon Technologies)</p>\n<p>I really enjoyed my time as an instructor as it was a breath of fresh air and will definitely do this again if given the opportunity.</p>\n",
+      "contents": "<p>Adan IT Center is an institute that was sponsored by the government to teach students web development for free in the span of 6 months. The course was designed to take a student with no knowledge about creating websites to someone who fundamentally understands how they are structured as-well as has a path to follow down the road.</p>\n<p>I was invited as the Instructor for the Web Development course. The course was a Full-stack Web Development course which aimed to teach students the basics of HTML, CSS, JavaScript &amp; PHP through a span of 6 months. It was divided into 3 months for Frontend &amp; 3 months for Backend development.</p>\n<p>My role as an instructor was to deliver lectures &amp; practical examples to the students and answer any of their questions and confusions. I also conducted lab sessions with them where a group of students would complete any given task, handling different aspects of the task. Students were also given bi-weekly assignments and quizzes to revise and sharpen their skills. We completed many projects while learning and I also enjoyed my time with the classroom.</p>\n<p>The curriculum that I designed for the students was:</p>\n<h4 id=\"main-subjects\">Main Subjects:</h4>\n<ul>\n<li>HTML &amp; CSS</li>\n<li>JavaScript</li>\n<li>Building a Company Website with HTML, CSS &amp; JavaScript</li>\n<li>Working with REST APIs</li>\n<li>ES6 JavaScript Features</li>\n<li>PHP</li>\n<li>MySQL</li>\n<li>Object Oriented PHP</li>\n<li>Building a Job Board with PHP &amp; MySQL</li>\n</ul>\n<h4 id=\"bonus-subjects\">Bonus Subjects:</h4>\n<ul>\n<li>Vue.js Crash Course</li>\n<li>Laravel Mini Course</li>\n<li>Building a Pokemon API with Laravel</li>\n</ul>\n<p>Even though the course was Full-stack development, many students chose the one they were most interested in. As such, they were given special guidance related to their choice and weren&#39;t bothered with things they weren&#39;t interested in.</p>\n<p>The course ended in July of 2022, and some students eventually started working as interns in different organizations (including Nexthon Technologies)</p>\n<p>I really enjoyed my time as an instructor as it was a breath of fresh air and will definitely do this again if given the opportunity.</p>\n",
       "title": "Full-stack Development Instructor - Adan IT Center",
       "eventType": "job",
       "date": "2022-02-01T00:00:00.000Z",
-      "endDate": "2022-07-01T00:00:00.000Z",
+      "endDate": "2022-08-01T00:00:00.000Z",
       "website": "https://codecanyon.net/user/bitflan/",
       "thumbnail": "adanit-thumb",
       "image": "adanit",
-      "excerpt": "I was invited to Adan IT Center as an Instructor for the Advance Web Development Course which was sponsored by the Government. I delivered lectures to the students & assessed their progress through the 6-month span of the course. Click on the Link for More Information.",
+      "excerpt": "I was invited to Adan IT Center as an Instructor for the Advance Web Development Course which was sponsored by the Government. I delivered lectures to the students & assessed their progress through the 6-month span of the course.",
       "tags": [
         "laravel",
         "php",
@@ -34,9 +34,9 @@
       ],
       "meta": {
         "relativePath": "adanit.html",
-        "createdAt": "2022-08-02T10:08:58.811Z",
-        "lastModified": "2022-08-02T10:08:58.811Z",
-        "size": 2536,
+        "createdAt": "2022-08-02T10:13:06.631Z",
+        "lastModified": "2022-08-02T10:13:06.631Z",
+        "size": 2519,
         "formattedSize": "2.5 KB"
       }
     },
@@ -61,6 +61,29 @@
         "lastModified": "2022-08-02T08:34:28.334Z",
         "size": 1847,
         "formattedSize": "1.8 KB"
+      }
+    },
+    {
+      "id": "domaintools",
+      "contents": "",
+      "title": "DomainTools",
+      "eventType": "job",
+      "date": "2021-08-24T00:00:00.000Z",
+      "website": "https://codecanyon.net/item/domaintools-awesome-domain-tools/33477831?s_rank=1",
+      "thumbnail": "domaintools-thumb",
+      "excerpt": "DomainTools was a collection of useful tools related to Searching, Looking up DNS, WHOIS, Generating Names for Domains. I was the main backend developer for this script. I developed it in CodeIgniter & MySQL. It was later sold on the Envato Marketplace and has hundreds of paying customers.",
+      "tags": [
+        "codeigniter",
+        "php",
+        "mysql",
+        "javascript"
+      ],
+      "meta": {
+        "relativePath": "domaintools.html",
+        "createdAt": "2022-08-02T16:21:22.607Z",
+        "lastModified": "2022-08-02T16:21:22.607Z",
+        "size": 522,
+        "formattedSize": "522 Bytes"
       }
     },
     {
@@ -129,6 +152,29 @@
         "lastModified": "2022-08-02T09:04:27.613Z",
         "size": 431,
         "formattedSize": "431 Bytes"
+      }
+    },
+    {
+      "id": "webtools",
+      "contents": "",
+      "title": "WebTools",
+      "eventType": "job",
+      "date": "2022-08-07T00:00:00.000Z",
+      "website": "https://codecanyon.net/item/domaintools-awesome-domain-tools/33477831?s_rank=1",
+      "thumbnail": "webtools-thumb",
+      "excerpt": "WebTools is a Script / CMS built in Laravel that includes a lot of useful tools & utilities including converters, calculators, generators and more. I was the main backend developer for this project. The MVP release contains 42 Tools as-well as standard features of a modern CMS (i18n, Asset Management, Plugin Functionality, Page Creation)",
+      "tags": [
+        "laravel",
+        "php",
+        "mysql",
+        "javascript"
+      ],
+      "meta": {
+        "relativePath": "webtools.html",
+        "createdAt": "2022-08-02T16:28:23.145Z",
+        "lastModified": "2022-08-02T16:28:23.145Z",
+        "size": 561,
+        "formattedSize": "561 Bytes"
       }
     },
     {

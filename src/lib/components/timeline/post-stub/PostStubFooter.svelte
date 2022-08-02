@@ -9,6 +9,14 @@
 
 <div class="footer">
   <div class="external-links do-transition">
+    {#if post.hasContent}
+      <a sveltekit:prefetch data-testid="post-stub-link-{post.slug}" href="item/{post.slug}">More Information</a>
+    {/if}
+
+    {#if post.hasContent && (post.website || post.repository)}
+      <InlineSeparator />
+    {/if}
+
     {#if post.repository}
       <a target="_blank" rel="noopener noreferrer" href={post.repository}>
         GitHub
