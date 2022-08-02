@@ -3,10 +3,10 @@ title: CORONASTATS.CO
 eventType: project
 date: 2020-04-01
 website: https://www.producthunt.com/products/coronavirus-statistics
-image: isearthstillwarming
-thumbnail: fire
-excerpt: A Coronavirus Cases & News tracker built in React.js with a PHP & Postgres Backend. It was my excuse to learn React but ended up becoming product of the day on Product Hunt and reached hundereds of thousands of unique visitors.
-tags: [react, php, postgres]
+image: coronastats
+thumbnail: coronastats-thumb
+excerpt: A Coronavirus Cases & News tracker built in React.js with a PHP & MySQL Backend. It was my excuse to learn React but ended up becoming product of the day on Product Hunt and reached hundereds of thousands of unique visitors.
+tags: [react, php, mysql]
 # , cypress
 ---
 

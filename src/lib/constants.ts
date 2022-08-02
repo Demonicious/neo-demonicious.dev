@@ -21,6 +21,8 @@ export const tagLabels = {
   unity: "Unity 3D",
   webassembly: "WebAssembly",
   wordpress: "WordPress",
+  php: "PHP",
+  mysql: "MySQL"
 };
 
 export const tagAncestors = {

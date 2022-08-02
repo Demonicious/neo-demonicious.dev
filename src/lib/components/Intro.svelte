@@ -1,6 +1,6 @@
 <div class="content-wrapper intro">
   <h2 data-testid="main-heading">
-    Welcome to my homepage!
+    Welcome to My Portfolio!
   </h2>
   <p>
     I hope you enjoy your stay. Here's a some things about me:

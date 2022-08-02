@@ -5,7 +5,7 @@ import type { PostCategory, SiteTheme } from "./types";
 
 export const showCategories = writable(new Set<PostCategory>());
 export const showTags = writable(new Set<string>());
-export const minTagNum = writable(2);
+export const minTagNum = writable(0);
 
 export const consoleMessagePrinted = writable(false);
 
