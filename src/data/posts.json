@@ -16,6 +16,31 @@
   },
   "data": [
     {
+      "id": "adanit",
+      "contents": "<p>Adan IT Center is an institute that was sponsored by the government to teach students web development for free in the span of 6 months. The course was designed to take a student with no knowledge about creating websites to someone who fundamentally understands how they are structured as-well as has a path to follow down the road.</p>\n<p>I was invited as the Instructor for the Web Development course. The course was a Full-stack Web Development course which aimed to teach students the basics of HTML, CSS, JavaScript &amp; PHP through a span of 6 months. It was divided into 3 months for Frontend &amp; 3 months for Backend development.</p>\n<p>My role as an instructor was to deliver lectures &amp; practical examples to the students and answer any of their questions and confusions. I also conducted lab sessions with them where a group of students would complete any given task, handling different aspects of the task. Students were also given bi-weekly assignments and quizzes to revise and sharpen their skills. We completed many projects while learning and I also enjoyed my time with the classroom.</p>\n<p>The curriculum that I designed for the students was:</p>\n<h4 id=\"main-subjects\">Main Subjects:</h4>\n<ul>\n<li>HTML &amp; CSS</li>\n<li>JavaScript</li>\n<li>Building a Company Website with HTML, CSS &amp; JavaScript</li>\n<li>Working with REST APIs</li>\n<li>ES6 JavaScript Features</li>\n<li>PHP</li>\n<li>MySQL</li>\n<li>Building a Job Board with PHP &amp; MySQL</li>\n</ul>\n<h4 id=\"bonus-subjects\">Bonus Subjects:</h4>\n<ul>\n<li>Vue.js Crash Course</li>\n<li>Laravel Mini Course</li>\n<li>Building a Pokemon API with Laravel</li>\n</ul>\n<p>Even though the course was Full-stack development, many students chose the one they were most interested in. As such, they were given special guidance related to their choice and weren&#39;t bothered with things they weren&#39;t interested in.</p>\n<p>The course ended in July of 2022, and many students eventually started working as interns in different organizations (including Nexthon Technologies)</p>\n<p>I really enjoyed my time as an instructor as it was a breath of fresh air and will definitely do this again if given the opportunity.</p>\n",
+      "title": "Full-stack Development Instructor - Adan IT Center",
+      "eventType": "job",
+      "date": "2022-02-01T00:00:00.000Z",
+      "endDate": "2022-07-01T00:00:00.000Z",
+      "website": "https://codecanyon.net/user/bitflan/",
+      "thumbnail": "adanit-thumb",
+      "image": "adanit",
+      "excerpt": "I was invited to Adan IT Center as an Instructor for the Advance Web Development Course which was sponsored by the Government. I delivered lectures to the students & assessed their progress through the 6-month span of the course. Click on the Link for More Information.",
+      "tags": [
+        "laravel",
+        "php",
+        "mysql",
+        "javascript"
+      ],
+      "meta": {
+        "relativePath": "adanit.html",
+        "createdAt": "2022-08-02T10:08:58.811Z",
+        "lastModified": "2022-08-02T10:08:58.811Z",
+        "size": 2536,
+        "formattedSize": "2.5 KB"
+      }
+    },
+    {
       "id": "coronastats",
       "contents": "<p>During 2020, when COVID-19 was yet to reach it&#39;s peak, I had a lot of free time and wanted to dabble in React.js. I&#39;d always been a Vue and Angular user but wanted to give React a fair chance. I watched a crash course by <a href=\"https://youtube.com/traversymedia\">Traversy Media</a> and decided to work on a project. I wanted to build something related to the coronavirus that could be helpful / informative. CORONASTATS.CO was my excuse to learn React.</p>\n<p>I parsed the data initially from <a href=\"https://www.worldometers.info/\">Worldometers</a> and later from many other websites to give extremely detailed and updated statistics for the coronavirus. I had cases per country, as-well as per city &amp; province for some prominent countries (The US, India, The UK). I also had a news section that parsed links to news articles from various different websites. I used a cron-job to fetch new data every 15 minutes and generated a static site that was requested by the React App and all the data was presented in a good looking interface.</p>\n<p>I had no hopes of it doing well but just to show it off, I posted the link on ProductHunt and Reddit and it blew up. I received hundereds of thousands of unique visitors and it became Product of the Day on Product Hunt. I also received more than $10,000 in donations and a large amount of users praised it as the best coronavirus tracker that exists at the time.</p>\n",
       "title": "CORONASTATS.CO",
@@ -36,6 +61,28 @@
         "lastModified": "2022-08-02T08:34:28.334Z",
         "size": 1847,
         "formattedSize": "1.8 KB"
+      }
+    },
+    {
+      "id": "freelance",
+      "contents": "",
+      "title": "Freelancing - Backend Development",
+      "eventType": "job",
+      "date": "2017-12-01T00:00:00.000Z",
+      "excerpt": "I started freelancing in late 2017. I worked with a large amount of clients all over the world & built many small - medium scale projects. Most of my work included modifying pre-existing codebases but often I was tasked with building something new. I offered Backend Development services in PHP, Laravel, CodeIgniter, WordPress more. I stopped freelancing when I started a full-time job.",
+      "tags": [
+        "laravel",
+        "codeigniter",
+        "wordpress",
+        "php",
+        "mysql"
+      ],
+      "meta": {
+        "relativePath": "freelance.html",
+        "createdAt": "2022-08-02T09:49:32.103Z",
+        "lastModified": "2022-08-02T09:49:32.103Z",
+        "size": 530,
+        "formattedSize": "530 Bytes"
       }
     },
     {
@@ -87,11 +134,9 @@
     {
       "id": "xlscripts",
       "contents": "",
-      "title": "XLSCRITPS.COM - Nexthon Technologies",
+      "title": "XLScripts - Nexthon Technologies",
       "eventType": "job",
       "date": "2019-08-01T00:00:00.000Z",
-      "endDate": "2021-02-01T00:00:00.000Z",
-      "website": "https://gamegator.net/",
       "thumbnail": "xlscripts-thumb",
       "excerpt": "XLScripts was a digital code marketplace built specifically for Nexthon products. I lead the development of this project alongside my frontend developer colleagues. It was later shut-down as we planned to list our products on Envato Marketplaces instead.",
       "tags": [
@@ -102,10 +147,10 @@
       ],
       "meta": {
         "relativePath": "xlscripts.html",
-        "createdAt": "2022-08-02T09:13:57.642Z",
-        "lastModified": "2022-08-02T09:13:57.642Z",
-        "size": 474,
-        "formattedSize": "474 Bytes"
+        "createdAt": "2022-08-02T09:45:19.552Z",
+        "lastModified": "2022-08-02T09:45:19.552Z",
+        "size": 416,
+        "formattedSize": "416 Bytes"
       }
     }
   ]
