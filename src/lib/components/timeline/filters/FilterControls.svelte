@@ -71,7 +71,7 @@
   }
 
   $: mediaQueryThemeIsDark = browser && window.matchMedia("(prefers-color-scheme: dark)").matches;
-  $: isPageBackgroundDark = $theme === "dark" || ($theme === "system" && mediaQueryThemeIsDark);
+  $: isPageBackgroundDark = $theme === "dark";
 </script>
 
 <div class="category-buttons">

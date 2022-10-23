@@ -7,17 +7,18 @@
 
   import LightThemeIcon from "~icons/ion/ios-sunny";
   import DarkThemeIcon from "~icons/ion/ios-moon";
-  import SystemThemeIcon from "~icons/lucide/settings-2";
+  // import SystemThemeIcon from "~icons/lucide/settings-2";
 
   $: changeTheme = () => {
     let nextTheme: SiteTheme;
-    if (selectedTheme === "system") {
+    if (selectedTheme === "dark") {
       nextTheme = "light";
     } else if (selectedTheme === "light") {
       nextTheme = "dark";
-    } else {
-      nextTheme = "system";
     }
+    // } else {
+    //   nextTheme = "system";
+    // }
     $theme = nextTheme;
   };
 </script>
@@ -34,8 +35,6 @@
         <LightThemeIcon />
       {:else if selectedTheme === "dark"}
         <DarkThemeIcon />
-      {:else}
-        <SystemThemeIcon />
       {/if}
     </span>
     <span class="description">{selectedTheme} theme</span>

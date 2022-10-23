@@ -39,7 +39,7 @@
     }
   }
 
-  $: selectedTheme = browser ? $themeStore : themeFromSession;
+  $: selectedTheme = $themeStore;
 </script>
 
 <div

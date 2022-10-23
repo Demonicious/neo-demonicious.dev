@@ -5,10 +5,10 @@
   <p>
     I hope you enjoy your stay. Here's a some things about me:
   <p>
-    I am a Full-stack Web Developer who specializes in Vue, Svelte, PHP, Laravel & Relational Databases.
+    I am a Full-stack Web Developer who specializes in PHP, Laravel, Vue, Svelte & Relational Databases.
     I'm self-taught and went from knowing nothing about programming to lecturing students about web development in the span of a few years.
-    I have a passion for computer tinkering and I'm always hunting for new technologies and experimenting with them.
-    I'm currently working as a Full-stack Developer for Nexthon Technologies.
+    I have a passion for computer tinkering and I'm always hunting for new technologies and experimenting with them. 
+    I'm currently employed part-time. If you need any website, I can build it.
   </p>
 </div>
 

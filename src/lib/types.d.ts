@@ -40,4 +40,4 @@ export interface BrandColors {
   }
 }
 
-export type SiteTheme = "light" | "dark" | "system";
+export type SiteTheme = "light" | "dark";

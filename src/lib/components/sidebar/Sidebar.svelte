@@ -29,13 +29,16 @@
         GitHub
       </a>
       <InlineSeparator />
-      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/islam.mudassar">
-        LinkedIn
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/demonicious">
+        Discord
       </a>
-      <InlineSeparator />
+      <!-- <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/islam.mudassar">
+        LinkedIn
+      </a> -->
+      <!-- <InlineSeparator />
       <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
         Resume
-      </a>
+      </a> -->
     </p>
   </div>
   <Separator />
