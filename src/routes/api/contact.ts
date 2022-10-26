@@ -21,7 +21,7 @@ export async function post({ request }) {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ username: identifier, content })
+            body: JSON.stringify({ username: identifier, content, avatar_url: `https://avatars.dicebear.com/api/big-smile/${encodeURI(identifier)}.svg` })
         });
 
         if(response.status == 200)
