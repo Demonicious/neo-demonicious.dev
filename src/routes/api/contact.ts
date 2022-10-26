@@ -5,15 +5,23 @@ export async function post({ request }) {
 
     const url = process.env['WEBHOOK'];
 
-    const { username, content } = await request.json();
+    const { username, content, email } = await request.json();
 
-    if(username && content) {
+    if((username || email) && content) {
+        let identifier = '';
+
+        if(username)
+            identifier += username;
+        
+        if(email)
+            identifier += ' - ' + email;
+
         const response = await fetch(url, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ username, content })
+            body: JSON.stringify({ username: identifier, content })
         });
 
         if(response.status == 200)

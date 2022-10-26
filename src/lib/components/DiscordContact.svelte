@@ -25,42 +25,45 @@
         sent: false,
         error: false,
         username: '',
-        content: ''
+        content: '',
+        email: '',
     };
 
     const send = async () => {
         if(!message.sent) {
-            try {
-                message.sent = false;
-                message.error = false;
-                message.loading = true;
+            if((message.email || message.username) && message.content) {
+                try {
+                    message.sent = false;
+                    message.error = false;
+                    message.loading = true;
 
-                const response = await fetch('/api/contact', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/jso'
-                    },
-                    body: JSON.stringify({
-                        username: message.username,
-                        content: message.content
-                    })
-                });
+                    const response = await fetch('/api/contact', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/jso'
+                        },
+                        body: JSON.stringify({
+                            username: message.username,
+                            content: message.content
+                        })
+                    });
 
-                const data = await response.json();
+                    const data = await response.json();
 
-                message.loading = false;
+                    message.loading = false;
 
-                if(data.success == true) {
-                    message.sent = true;
-                    message.username = '';
-                    message.content = '';
-                } else {
+                    if(data.success == true) {
+                        message.sent = true;
+                        message.username = '';
+                        message.content = '';
+                    } else {
+                        message.error = true;
+                    }
+                } catch(e) {
+                    message.loading = false;
+                    message.sent = false;
                     message.error = true;
                 }
-            } catch(e) {
-                message.loading = false;
-                message.sent = false;
-                message.error = true;
             }
         }
     }
@@ -74,8 +77,9 @@
             <p>Or message me directly at Demonicious#0077</p>
 
             <form on:submit|preventDefault={ send }>
-                <input bind:value={ message.username } type="text" placeholder="Your Discord username + #Tag" />
-                <textarea bind:value={ message.content } placeholder="Your message..." rows="4"></textarea>
+                <input bind:value={ message.email } type="email" placeholder="Your E-Mail Address" />
+                <input bind:value={ message.username } type="text" placeholder="or Your Discord username + #Tag" />
+                <textarea bind:value={ message.content } placeholder="Your message..." rows="4" required></textarea>
                 <input type="hidden" name="submit" value="true" />
                 {#if message.loading}
                     <button class="success">Sending...</button>
@@ -88,7 +92,7 @@
                 {/if}
             </form>
             
-            <p>I will get back to you on discord.</p>
+            <p>I will get back to you on discord or e-mail.</p>
         </div>
     </div>
 {/if}
@@ -125,7 +129,7 @@
         margin-bottom: 0.8rem;
     }
 
-    input[type=text], textarea {
+    input[type=text], input[type=email], textarea {
         display: block;
         margin-top: 0.8rem;
         width: 100%;
