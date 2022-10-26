@@ -1,5 +1,6 @@
 <script lang="ts">
   import { remsToPixels } from "$lib/functions";
+  import { contact } from "$lib/stores";
   import Separator from "$lib/components/sidebar/Separator.svelte";
   import InlineSeparator from "$lib/components/InlineSeparator.svelte";
 </script>
@@ -22,23 +23,16 @@
     </h1>
     <p class="subtitle role do-transition">Software Developer</p>
     <p class="subtitle email">
-      <a href="mailto:thedvmn@gmail.com">thedvmn@gmail.com</a>
+      <a href="mailto:thedvmn@gmail.com" on:click|preventDefault={ () => $contact = true }>thedvmn@gmail.com</a>
     </p>
     <p class="subtitle">
       <a target="_blank" rel="noopener noreferrer" href="https://github.com/demonicious">
         GitHub
       </a>
       <InlineSeparator />
-      <a target="_blank" rel="noopener noreferrer" href="https://github.com/demonicious">
-        Discord
+      <a target="_blank" on:click|preventDefault={ () => $contact = true } rel="noopener noreferrer" href="https://discord.com/users/208135645665689600">
+        Send Message
       </a>
-      <!-- <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/islam.mudassar">
-        LinkedIn
-      </a> -->
-      <!-- <InlineSeparator />
-      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-        Resume
-      </a> -->
     </p>
   </div>
   <Separator />

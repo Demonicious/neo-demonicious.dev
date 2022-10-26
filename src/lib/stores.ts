@@ -29,4 +29,4 @@ function cookieStore<T>(key: string, defaultValue: T = undefined, maxAge = yearI
 }
 
 export const theme = cookieStore<SiteTheme>("theme", "dark");
-
+export const contact = writable(false);

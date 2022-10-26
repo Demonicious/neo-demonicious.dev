@@ -22,6 +22,7 @@
 
   import "../assets/styles/global.scss";
   import "../assets/styles/normalize.min.css";
+import DiscordContact from "$lib/components/DiscordContact.svelte";
 
   const getCssVariable = (variableName: string) => {
     const style = getComputedStyle(document.querySelector(".app-wrapper"));
@@ -42,6 +43,7 @@
   $: selectedTheme = $themeStore;
 </script>
 
+<DiscordContact />
 <div
   class="app-wrapper do-transition"
   data-theme={selectedTheme}
