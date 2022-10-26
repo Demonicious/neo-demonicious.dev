@@ -71,9 +71,10 @@
         <div class="inner" use:clickOutside on:click_outside={() => $contact = false} in:fly={{ y: 50, duration: 150 }} out:fade={{ duration: 150 }}>
             <h3>Get in Touch</h3>
             <p>This message will go directly into my Discord Inbox.</p>
+            <p>Or message me directly at Demonicious#0077</p>
 
             <form on:submit|preventDefault={ send }>
-                <input bind:value={ message.username } type="text" placeholder="Your Discord Username" />
+                <input bind:value={ message.username } type="text" placeholder="Your Discord username + #Tag" />
                 <textarea bind:value={ message.content } placeholder="Your message..." rows="4"></textarea>
                 <input type="hidden" name="submit" value="true" />
                 {#if message.loading}
