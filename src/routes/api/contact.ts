@@ -1,14 +1,9 @@
+import dotenv from "dotenv";
+
 export async function post({ request }) {
-    const url = process.env.WEBHOOK;
+    dotenv.config();
 
-    console.log(url);
-
-    return {
-        status: 200,
-        body: { 
-            success: true
-        }
-    }
+    const url = process.env['WEBHOOK'];
 
     const { username, content } = await request.json();
 
