@@ -1,6 +1,15 @@
 export async function post({ request }) {
     const url = process.env.WEBHOOK;
 
+    console.log(url);
+
+    return {
+        status: 200,
+        body: { 
+            success: true
+        }
+    }
+
     const { username, content } = await request.json();
 
     if(username && content) {
