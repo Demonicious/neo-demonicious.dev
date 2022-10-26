@@ -10,7 +10,7 @@
 
   const meta = {
     title: "Homepage & Portfolio — Mudassar Islam",
-    description: "I'm a software developer from Pakistan. Web Development is my specialization but I'm always looking forward to anything related to computers & new technologies.",
+    description: "I'm a software developer with 4+ years of professional experience. Web Development is my specialization but I'm always looking forward to anything related to computers & new technologies.",
     url: "https://demonicious.dev",
     siteName: "Mudassar Islam",
     image: {
