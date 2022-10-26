@@ -44,7 +44,8 @@
                         },
                         body: JSON.stringify({
                             username: message.username,
-                            content: message.content
+                            content: message.content,
+                            email: message.email
                         })
                     });
 
